@@ -16,15 +16,31 @@ print('ITEM AT 0 ->', singleList[0]);
 print('ITEM AT 2 (END) ->', singleList[-1]);
 
 # Test type coersion
-print('BOOLEAN "1" == 1 ->', 1 == '1');
+print('BOOLEAN "1" == 1 ->', 1 == '1')
 
 # Check for value in singleList
-print('BOOLEAN VALUE IN LIST ->', 'two' in singleList);
-print('BOOLEAN VALUE NOT IN LIST ->', 'seven' not in singleList);
+print('BOOLEAN VALUE IN LIST ->', 'two' in singleList)
+print('BOOLEAN VALUE NOT IN LIST ->', 'seven' not in singleList)
 
 
 # Make a tuple (immutable list)
 tupleOne = (1, 2, 3)
 
 # Print tuple at 0
-print ('TUPLE AT 0 ->', tupleOne[0]);
+print ('TUPLE AT 0 ->', tupleOne[0])
+
+
+# Sample lines from "Python Crash Course..." by Eric Matthes
+print('Hello Python World!')
+
+message = 'Hello Python World!'
+
+message = 'Hello Python Crash course world!'
+print(message)
+
+var1 = 1;
+var2 = 'TWELVE';
+print(f'{var1} is not {var2}');
+
+
+
